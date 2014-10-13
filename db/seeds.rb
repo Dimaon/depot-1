@@ -8,3 +8,4 @@
 
 Product.delete_all
 Product.create!(title: 'Amazing thing of awesomeness.', description: %{<p>This thing is so awesome you don't even know.</p>}, image_url: 'awesome.jpg', price: 9000.00)
+Product.create!(title: 'Bad thing of badness.', description: %{<p>This thing is so terrible it's' just nope.</p>}, image_url: 'not_so_awesome.jpg', price: 1000000.00)
