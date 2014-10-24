@@ -15,12 +15,16 @@
   </div>
   <div id="columns">
     <div id="side">
-      <ul>
-        <li><a href="<%= store_path %>">Home</a></li>
-        <li><a href="http://www..../faq">Questions</a></li>
-        <li><a href="http://www..../news">News</a></li>
-        <li><a href="http://www..../contact">Contact</a></li>
-      </ul>
+      <div id="cart">
+        <%= render @cart %>
+      </div>
+      
+        <ul>
+          <li><a href="<%= store_path %>">Home</a></li>
+          <li><a href="http://www..../faq">Questions</a></li>
+          <li><a href="http://www..../news">News</a></li>
+          <li><a href="http://www..../contact">Contact</a></li>
+        </ul>
       <div class="time">
         <p>Page rendered at: <%= Time.now.to_formatted_s(:long_ordinal) %></p>
       </div>
