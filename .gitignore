@@ -20,3 +20,6 @@
 
 # Ignore RubyMine folder
 /.idea
+
+# Ignore Codio settings
+.codio
