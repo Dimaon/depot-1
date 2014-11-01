@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: Patrick Irwin
-  address: MyText
-  email: pat.irwin4@gmail.com
+  name: John Doe
+  address: 123 Fake Street
+  email: email@inter.net
   pay_type: Check
 
 two:

@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Product.delete_all
-Product.create!(title: 'Amazing thing of awesomeness.', description: %{<p>This thing is so awesome you don't even know.</p>}, image_url: 'awesome.png', price: 9000.00)
-Product.create!(title: 'Bad thing of badness.', description: %{<p>This thing is so terrible it's' just nope.</p>}, image_url: 'not_so_awesome.png', price: 1000000.00)
+Product.create!(title: 'Programming Ruby 1.9', description: %{<p>This thing is so awesome you don't even know.</p>}, image_url: 'awesome.png', price: 54.50)
+Product.create!(title: 'Building with Rails 4.0', description: %{<p>Can you believe it this is awesome.</p>}, image_url: 'not_so_awesome.png', price: 10.00)

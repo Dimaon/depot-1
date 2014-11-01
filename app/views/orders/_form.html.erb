@@ -1,3 +1,4 @@
+<%#FIXME If cart is emptied during order placement, should go back to store page %>
 <%= form_for(@order) do |f| %>
   <% if @order.errors.any? %>
     <div id="error_explanation">
