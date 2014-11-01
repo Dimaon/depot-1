@@ -1,3 +1,6 @@
+[ ![Codeship Status for PDaily/depot](https://www.codeship.io/projects/21ea3c10-443c-0132-1b8a-32378b856677/status)](https://www.codeship.io/projects/44812)
+
+
 Depot
 =========
 
