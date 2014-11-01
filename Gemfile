@@ -39,6 +39,8 @@ gem 'bcrypt', '~> 3.1.7'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'pg'
+
 group :development do
   gem 'quiet_assets'
   gem 'spring'

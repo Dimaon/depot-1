@@ -38,7 +38,6 @@ ActiveRecord::Schema.define(version: 20141030033651) do
     t.string   "pay_type"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "ship_date_id"
   end
 
   create_table "products", force: true do |t|
